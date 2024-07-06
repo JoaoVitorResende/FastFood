@@ -8,7 +8,7 @@ html{
     font-size: 62.5%;
 }
 header{
-    background-color: black;
+    background: linear-gradient(to top,white, red);
     color: white;
     font-size: 1.8rem;
     padding: 1rem;
@@ -17,8 +17,9 @@ header{
     width: 100%;
 }
 footer{
-    background-color: black;
-    color: white;
+    background: linear-gradient(to bottom,white, red);
+    color: black;
+    text-align: center;
     font-size: 1.8rem;
     padding: 1rem;
 }
@@ -43,7 +44,10 @@ footer{
     padding-top: 23rem;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: red;
 }
 h2{
     font-size: 1.9rem;
@@ -53,6 +57,12 @@ h3{
 }
 h4{
     font-size: 1.6rem;
+}
+h5{
+    font-size: 3rem;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
 }
 figure{
     text-align: center;
@@ -142,7 +152,9 @@ a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    text-shadow: 2px 2px 3px black;
 }
 a:hover{
     color: yellow;
+    text-shadow: 2px 2px 3px black;
 }
