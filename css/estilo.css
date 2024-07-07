@@ -6,6 +6,7 @@
 html{
     font-family: arial;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 header{
     background: linear-gradient(to top,white, red);
@@ -82,8 +83,8 @@ figure{
 }
 #compras{
     background-color: rgba(255, 215, 0, 0.5);
-    width: 300px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
     right: 0;
     position: fixed;
     text-align: center;
@@ -101,7 +102,7 @@ figure{
         right: 0;
         position: fixed;
         text-align: center;
-        margin-top: 21rem;
+        margin-top: 25rem;
         z-index: 1;
         border-radius: 20px;
         padding-top: 5px;
@@ -109,6 +110,7 @@ figure{
     }
 }
 #grid-conteudo{
+    padding-top: 19rem;
     background-color: white;
 }
 .grid{
