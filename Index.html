@@ -9,7 +9,6 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
-
 <body>
     <header>
         <nav>
@@ -21,148 +20,152 @@
         <img src="img/pizzaBairro.png" alt="Logo Pizza Bairro">
       </figure>
     </header>
-    <!--
     <div id = "compras">
-        <h4>Caixa de compras</h4>
-        <button>COMPRAR AGORA</button>
+        <h4>Clique no botao e faca seu pedido</h4>
+        <br>
+        <button id ="btn-compras">Fazer meu pedido</button>
     </div>
-    -->
     <br>
     <section class = "conteudo-topo">
-        <h1>Pizzas, bebidas e salgados todos os dias !</h1>
-         <!--<figure>
-            <img class="imagens-site" src="img/imagem-exemplo.png">
-            <br>
-            <figurecaption> primeira imagem</figurecaption>
-        </figure>-->
+        <h1>Pizzas, bebidas e salgados todos os dias!</h1>
         <br>     
         <h5>Promocao</h5>
         <h5>de suganda a quinta todas as PIZZAS por</h5>
         <h5>apenas 69,99!</h5>
     </section>
     <br>
-    <!--
-    <section class = "conteudo">
-        <h2>Segundo titulo</h2>
-        <figure>
-            <img class="imagens-site" src="img/imagem-exemplo.png">
-            <br>
-            <figurecaption> segunda imagem</figurecaption>
-        </figure>
-        <br>
-        <p>Os profissionais da área geram softwares (programas),
-            que são executados em hardwares (equipamentos)
-            operados por usuários (indivíduos), preparados
-            e treinados em procedimentos operacionais padronizados,
-            dotados de conhecimentos do software e hardware para seu trabalho.
-            A partir de então a análise de sistemas é uma profissão cujas responsabilidades concentram-se na análise do sistema e na administração de sistemas computacionais.
-            Cabe a este profissional parte da organização, implantação e manutenção de aplicativos e redes de computadores, ou seja, o analista de sistemas é o responsável pelo
-            levantamento de informações sobre uma empresa a fim de utilizá-las no desenvolvimento de um sistema para a mesma ou para o levantamento de uma necessidade específica
-            do cliente para desenvolver este programa específico com base nas informações colhidas.</p>
-    </section>
-    <br>
-    <section class = "conteudo">
-        <h2>Terceiro titulo</h2>
-        <figure>
-            <img class="imagens-site" src="img/imagem-exemplo.png">
-            <br>
-            <figurecaption> terceira imagem</figurecaption>
-        </figure>
-        <br>
-        <p>O profissional geralmente possui conhecimento adquirido em faculdades de Sistemas de informação,
-             Sistemas para Internet, Ciência da computação, Análise de sistemas, Engenharia de Computação,
-              Engenharia de Software, Processamento de dados, Informática, Licenciatura em Computação ou outros cursos similares,
-               mas a ausência de restrições para o exercício do cargo permite a profissionais capacitados de outras áreas ou mesmo que não possuem educação superior cumprirem este papel nas empresas.</p>
-    </section>
-    <br>
-    <section class = "conteudo">
-        <h2>Quarto titulo</h2>
-        <p>Como é uma ênfase, o foco e o núcleo de trabalho está voltado para o processo de desenvolvimento de software,
-             levando em conta a área tecnológica em que irá auxiliar.
-              O analista de sistemas deve servir como um tradutor entre as necessidades do usuário e o programa a ser desenvolvido pelo programador.
-               Para isto, deve ter conhecimento abrangente da área de negócio na qual o sistema será desenvolvido,
-                a fim de que possa implementar corretamente as regras de negócio.</p>
-    </section>-->
-    <br>
     <section class = "conteudo" id = "grid-conteudo">
+        <h5>Cardapio de pizzas</h5>
+        <br>
         <div class = "grid">
-            <div>
+            <div class="text-center">
                 <figure>
                     <img class = "imagens-site" src = "img/calabresa.jpg">
-                    <figurecaption>Pizza de calabresa</figurecaption>
+                    <figurecaption><a href="#">Pizza de calabresa</a></figurecaption>
                 </figure>
             </div>
-
-            <div>
+            <div class="text-center">
                 <figure>
                     <img class = "imagens-site" src = "img/frango.jpg">
-                    <figurecaption>Pizza de frango</figurecaption>
+                    <figurecaption><a href="#">Pizza de frango</a></figurecaption>
                 </figure>
             </div>
-
-            <div>
+            <div class="text-center">
                 <figure>
                     <img class = "imagens-site" src = "img/marguerita.jpg">
-                    <figurecaption>Pizza de marguerita</figurecaption>
+                    <figurecaption><a href="#">Pizza de marguerita</a></figurecaption>
                 </figure>
             </div>
-
-            <div>
+            <div class="text-center">
                  <figure>
                     <img class = "imagens-site" src = "img/mussarela.jpg">
-                    <figurecaption>Pizza de mussarela</figurecaption>
+                    <figurecaption><a href="#">Pizza de mussarela</a></figurecaption>
                 </figure>
             </div>
-
-            <div>
+            <div class="text-center">
                 <figure>
                     <img class = "imagens-site" src = "img/palmito.jpg">
-                    <figurecaption>Pizza de palmito</figurecaption>
+                    <figurecaption><a href="#">Pizza de palmito</a></figurecaption>
                 </figure>
             </div>
-
-            <div>
+            <div class="text-center">
                 <figure>
+                    <br>
                     <img class = "imagens-site" src = "img/portuguesa.jpg">
-                    <figurecaption>Pizza portuguesa</figurecaption>
+                    <figurecaption><a href="#">Pizza portuguesa</a></figurecaption>
                 </figure>
             </div>
         </div>
     </section>
     <br>
-    <!--
-    <section class = "conteudo" id ="formulario">
-       <h2>selecione um produto para mais informações</h2>
-        <form action="#" method="" target="_blank">
-            <label for="nome">Nome</label><br>
-            <input type="text" id = "nome" name ="nome" placeholder="Digite o seu nome">
-            <br><br>
-            <label for="telefone">Telefone</label><br>
-            <input type="tel" id="tel" name="tel" placeholder="Digite o seu cell com ddd">
-            <br><br>
-            <input type="checkbox" id="opcoes" name="html" value="html">
-            <label for="html">Quero saber mais sobre html e css</label>
-            <br><br>
-            <input type="checkbox" id="opcoes" name="php" value="php">
-            <label for="php">Quero saber mais sobre php</label>
-            <br><br>
-            <input type="checkbox" id="opcoes" name="javascript" value="javascript">
-            <label for="javascript">Quero saber mais sobre javascript</label>
-            <br><br>
-            <label for="mensagem">Deixe a sua mensagem(opcional)</label>
-            <br><br>
-            <textarea id="mensagem" rows="5" cols="25"></textarea>
-            <br><br>
-            <button id="btn-limpar" type="reset" value="limpar">Limpar</button>&nbsp
-            <button id="btn-enviar" type="submit" value="enviar">Enviar</button>
-        </form>
+    <section class = "conteudo" id = "grid-conteudo">
+        <h5>Bebidas</h5>
+        <br>
+        <div class = "grid">
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/refri1.jpg">
+                    <figurecaption><a href="#">Coca-Cola</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/refri2.jpg">
+                    <figurecaption><a href="#">Fanta laranja</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/refri3.jpg">
+                    <figurecaption><a href="#">Soda Limao</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                 <figure>
+                    <img class = "imagens-site" src = "img/refri4.jpg">
+                    <figurecaption><a href="#">Latas diversas</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/refri5.jpg">
+                    <figurecaption><a href="#">Coca lata</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/refri6.jpg">
+                    <figurecaption><a href="#">Guarana lata</a></figurecaption>
+                </figure>
+            </div>
+        </div>
     </section>
-    -->
+    <br>
+    <section class = "conteudo" id = "grid-conteudo">
+        <h5>Salgados</h5>
+        <br>
+        <div class = "grid">
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/salgados1.jpg">
+                    <figurecaption><a href="#">Coxinha</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/salgados2.jpg">
+                    <figurecaption><a href="#">Bola de queijo</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/salgados3.jpg">
+                    <figurecaption><a href="#">Mini Coxinha</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                 <figure>
+                    <img class = "imagens-site" src = "img/salgados4.jpg">
+                    <figurecaption><a href="#">Bauru</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/salgados5.jpg">
+                    <figurecaption><a href="#">Risoles</a></figurecaption>
+                </figure>
+            </div>
+            <div class="text-center">
+                <figure>
+                    <img class = "imagens-site" src = "img/salgados6.jpg">
+                    <figurecaption><a href="#">Salgadinhos diversos</a></figurecaption>
+                </figure>
+            </div>
+        </div>
+    </section>
     <br>
     <footer>
-        <h3>site pizzaria</h3>
-        <h4>Desenvolvimento web</h4>
-        <p>Contato: joaovitorrotiv@tantofaz.com</p>
+        <h3>Pizzaria do bairro</h3>
         <p>Whats: numero de telefone</p>
         <p>Direitos reservados</p>
     </footer>
